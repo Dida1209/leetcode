@@ -1,2 +1,2 @@
 # leetcode
-leetcode 解题之路
+按题型标签，记录leetcode 解题之路
