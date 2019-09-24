@@ -5,4 +5,7 @@
     * [0020 有效的括号](Stack/valid-parentheses.md)
 * [Array 数组](Array/README.md)
     * [0004 寻找两个有序数组的中位数](Array/median-of-two-sorted-arrays.md)
+* [面试](Interview/README.md)
+    * [最长重复字符](Interview/longest-repeat-character.md)
+    * [牛生牛](Interview/cow-raw-cow.md)
 
