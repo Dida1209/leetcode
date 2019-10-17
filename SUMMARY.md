@@ -12,4 +12,6 @@
 * [面试](Interview/README.md)
     * [最长重复字符](Interview/longest-repeat-character.md)
     * [牛生牛](Interview/cow-raw-cow.md)
+* [简单](easy/README.md)
+    * [0007 整数反转](easy/reverse-integer.md)
 
