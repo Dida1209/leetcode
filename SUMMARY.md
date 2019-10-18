@@ -14,4 +14,5 @@
     * [牛生牛](Interview/cow-raw-cow.md)
 * [简单](easy/README.md)
     * [0007 整数反转](easy/reverse-integer.md)
+    * [0008 字符串转换整数](easy/string-to-integer-atoi.md)
 
