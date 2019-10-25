@@ -23,8 +23,51 @@
 
 ## 代码实现
 ```
-优化：滑动窗口
-
+优化：滑动窗口(左右指针，右指针找到实现，左指针找到最小实现)
+/**
+ * @param {string} s
+ * @param {string[]} words
+ * @return {number[]}
+ */
+var findSubstring = function(s, words) {
+    let wordsHash = {};
+    let windowHash = {};
+    if (s.length === 0 || words.length === 0) {
+        return [];
+    }
+    let len = words[0].length;
+    let words_count = words.length;
+    let result = [];
+    // 存起所有 word
+    for (let i = 0; i < words.length; i++) {
+        wordsHash[words[i]] && wordsHash[words[i]]++ || (wordsHash[words[i]] = 1);
+    }
+    for (let i = 0; i < len; i++) {
+        let left = i, right = i;
+        let window_count = 0;
+            windowHash = {};
+        while (right + len <= s.length) {
+            let key = s.substr(right, len);
+            right += len;
+            if(wordsHash[key]){
+                windowHash[key] && (windowHash[key]++) || (windowHash[key]=1);
+                window_count++;
+                while (windowHash[key] > wordsHash[key]) {
+                    let key = s.substr(left, len);
+                    windowHash[key]--;
+                    window_count--;
+                    left += len;
+                }
+                if(window_count === words_count) result.push(left);
+            } else {
+                windowHash = {};
+                window_count = 0;
+                left = right;
+            }            
+        }
+    }
+    return result;
+};
 
 
 代码一:
