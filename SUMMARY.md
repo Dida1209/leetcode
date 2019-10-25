@@ -9,6 +9,7 @@
     * [0023 合并K个排序链表](Heap/merge-k-sorted-lists.md)
 * [String 字符串](String/README.md)
     * [0006 Z字形变换](String/zigzag-conversion.md)
+    * [0030 串联所有单词的子串](String/substring-with-concatenation-of-all-words.md)
 * [面试](Interview/README.md)
     * [最长重复字符](Interview/longest-repeat-character.md)
     * [牛生牛](Interview/cow-raw-cow.md)
