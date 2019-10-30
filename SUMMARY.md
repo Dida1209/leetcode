@@ -11,10 +11,13 @@
 * [String 字符串](String/README.md)
     * [0006 Z字形变换](String/zigzag-conversion.md)
     * [0030 串联所有单词的子串](String/substring-with-concatenation-of-all-words.md)
+    * [0072 编辑距离](String/edit-distance.md)
 * [面试](Interview/README.md)
     * [最长重复字符](Interview/longest-repeat-character.md)
     * [牛生牛](Interview/cow-raw-cow.md)
 * [简单](easy/README.md)
     * [0007 整数反转](easy/reverse-integer.md)
     * [0008 字符串转换整数](easy/string-to-integer-atoi.md)
+    * [0064 最小路径和](easy/minimum-path-sum.md)
+    * [0070 爬楼梯](easy/climbing-stairs.md)
 
