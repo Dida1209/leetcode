@@ -2,6 +2,35 @@
 按题型标签，记录leetcode 解题之路
 
 ## Stack 栈
-	[0020 有效的括号](Stack/valid-parentheses.md)
+```markdown
+[0020 有效的括号](Stack/valid-parentheses.md)
+```
 ## Array 数组
-	[0004 寻找两个有序数组的中位数](Array/README.md)
+```markdown
+[0004 寻找两个有序数组的中位数](Array/README.md)
+[0045 跳跃游戏 II](Array/jump-game-ii.md)
+```
+
+## Heap 堆
+
+```markdown
+[0023 合并K个排序链表](Heap/merge-k-sorted-lists.md)
+```
+
+## String 字符串
+
+```markdown
+[0006 Z字形变换](String/zigzag-conversion.md)
+[0030 串联所有单词的子串](String/substring-with-concatenation-of-all-words.md)
+[0072 编辑距离](String/edit-distance.md)
+```
+
+## 简单
+
+```markdown
+[0007 整数反转](easy/reverse-integer.md)
+[0008 字符串转换整数](easy/string-to-integer-atoi.md)
+[0064 最小路径和](easy/minimum-path-sum.md)
+[0070 爬楼梯](easy/climbing-stairs.md)
+```
+

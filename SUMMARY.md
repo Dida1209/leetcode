@@ -6,6 +6,7 @@
 * [Array 数组](Array/README.md)
     * [0004 寻找两个有序数组的中位数](Array/median-of-two-sorted-arrays.md)
     * [0045 跳跃游戏 II](Array/jump-game-ii.md)
+    * [最大子序和](Array/maximum-subarray)
 * [Heap 堆](Heap/README.md)
     * [0023 合并K个排序链表](Heap/merge-k-sorted-lists.md)
 * [String 字符串](String/README.md)

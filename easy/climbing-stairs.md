@@ -28,7 +28,7 @@
 ```
 ## 代码实现
 ```js
-/**
+/** 动态规划
  * @param {number} n
  * @return {number}
  */
