@@ -8,6 +8,7 @@
     * [0045 跳跃游戏 II](Array/jump-game-ii.md)
     * [0053 最大子序和](Array/maximum-subarray.md)
     * [0041 缺失的第一个整数](Array/first-missing-positive.md)
+    * [0042 接雨水](Array\trapping-rain-water.md)
 * [Heap 堆](Heap/README.md)
     * [0023 合并K个排序链表](Heap/merge-k-sorted-lists.md)
 * [String 字符串](String/README.md)

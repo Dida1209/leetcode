@@ -9,6 +9,9 @@
 ```markdown
 [0004 寻找两个有序数组的中位数](Array/README.md)
 [0045 跳跃游戏 II](Array/jump-game-ii.md)
+[0053 最大子序和](Array/maximum-subarray.md)
+[0041 缺失的第一个整数](Array/first-missing-positive.md)
+[0042 接雨水](Array\trapping-rain-water.md)
 ```
 
 ## Heap 堆
