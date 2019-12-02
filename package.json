@@ -1,0 +1,25 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "按题型标签，记录leetcode 解题之路",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dida1209/leetcode.git"
+  },
+  "author": "Dida",
+  "bugs": {
+    "url": "https://github.com/Dida1209/leetcode/issues"
+  },
+  "homepage": "https://github.com/Dida1209/leetcode#readme"
+}
