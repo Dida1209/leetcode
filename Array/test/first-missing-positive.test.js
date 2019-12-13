@@ -1,5 +1,4 @@
-const first_missing_positive = require('./first-missing-positive.js');
-// import {first_missing_positive} from './first-missing-positive.test';
+const first_missing_positive = require('../first-missing-positive.js');
 
 test('0045 跳跃游戏 II first_missing_positive test01', () => {
     expect(first_missing_positive([1,2,0])).toBe(3);

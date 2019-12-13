@@ -37,20 +37,21 @@
  * @return {boolean}
  */
 var isValid = function(s) {
-    let validStack = s.split('');
-    let stack = [];
-    let flag = validStack.length % 2 === 0;
-    let cache = ['(','[','{',')',']','}'];
-    while(validStack.length && flag){
-        let valid = validStack.shift()
-        let idx = cache.indexOf(valid)
-        if(idx >= 0 && idx <= 2) {
-            stack.push(valid);
-        }else if(idx > 2 && stack.length > 0){
-            let leftValid = stack.pop()
-            flag = cache.indexOf(leftValid) === (idx - 3);
+    var stack = []
+    var map = {
+        '(' : ')',
+        '[': ']',
+        '{': '}'
+    }
+    for (var char of s) {
+        if(char in map) {
+            stack.push(char)
+        } else {
+            if( !stack.length || char != map[stack.pop()]) {
+                return false
+            }
         }
     }
-    return !stack.length && flag
+    return !stack.length
 };
 ```
