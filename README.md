@@ -36,5 +36,6 @@
 [0008 字符串转换整数](./easy/string-to-integer-atoi.md)
 [0064 最小路径和](./easy/minimum-path-sum.md)
 [0070 爬楼梯](./easy/climbing-stairs.md)
+[0002 两数相加](./easy/add-two-numbers.md)
 ```
 
