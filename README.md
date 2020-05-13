@@ -38,5 +38,6 @@
 [0064 最小路径和](./easy/minimum-path-sum.md)
 [0070 爬楼梯](./easy/climbing-stairs.md)
 [0002 两数相加](./easy/add-two-numbers.md)
+[0021 合并两个有序链表](./easy/merge-two-sorted-lists.md)
 ```
 
